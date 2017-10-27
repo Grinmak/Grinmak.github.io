@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css?family=Cutive|Rufina|Radley|Droid+Sans+Mono");
+
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script:400,700);
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+
+
+/*--- NAVIGATION MENU ---*/
+
+* {
+  outline: none!important;
+  transition: all 0.3s;
+}
+.navbar-header * {
+  color: white !important;
+}
+              /*--- фон навигационной панели ---*/
+.navbar.navbar-inverse {
+  background-color: rgba(1, 1, 1, 0.5);
+}
+              /*--- левая надпись на панели ---*/
+.navbar-brand {
+  font-family: Droid Sans Mono, monospace;
+  font-size: 20px;
+  font-weight: 600;
+  color: white !important;
+  margin-left: 30px !important;
+   
+}
+            /*--- наведение курсора на левую надпись ---*/
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color:red !important;
+  text-shadow: 1px 2px 1px black;
+}
+                 /*--- правая надпись на панели ---*/
+.navbar-inverse .navbar-nav>li>a {
+  font-family: Droid Sans Mono, monospace;
+  font-size: 20px;
+  color: white;
+  font-weight: 600; 
+  margin-right: 30px;
+}
+                /*--- наведение курсора на правую надпись ---*/
+.navbar-inverse .navbar-nav> li> a:hover,
+.navbar-inverse .navbar-nav> .active>a:hover,
+.navbar-inverse .navbar-nav> .active>a:focus,
+.navbar-inverse .navbar-nav> .active>a {
+  color: black;
+  text-shadow: 1px 2px 1px gray;
+  background-color: white;
+}
+  /*---ЗАГОЛОВКИ СЕКЦИЙ---*/
+
+h2.section_title {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-weight: 900;
+  letter-spacing: 7px;
+  text-shadow: 1px 1px 3px #010101;
+}
+h2.section_title_contact {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: 900;
+    color: white !important;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px 3px #010101;
+  
+}
+/*---МОБИЛЬНЫЙ ВИД МЕНЮ ---*/
+      /* Цвет рамки у кнопки, которая открывает меню */
+.navbar-inverse .navbar-toggle{
+    border-color: white;
+}
+            /*--- Цвет фона кнопки (которая открывает меню) при поднесении к ней курсора мышки   или при нахождении её в фокусе ---*/
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  
+} 
+            /* Цвет полосок в кнопке, которая открывает меню */
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: rgba(0, 0, 0, 0.6);
+  
+}
+
+/* Цвет и фон открытого пункта меню, а также поднесении к нему курсора мышки или при его нахождении в фокусе */
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus,
+.navbar-inverse .navbar-nav>.open>a:hover {
+  background-color: rgb(1, 1, 1);
+  color: white;
+}
+
+
+/*---ФОН ТЕЛА---*/
+
+
+
+/*--- ОБЬЕМНЫЙ ТЕКСТ ГЛАВНОЙ СТРАНИЦЫ---*/
+          /*---надпись веб девелопер---*/
+.central-sign {
+  margin: 51.2px auto 0;
+  padding: 250px 30px 810px 30px;
+   font-family: Radley;
+  text-shadow: 1px 1px 3px #010101;
+  color: white;
+  display: block;
+  max-width: 800px;
+  min-height: 70px;
+}
+      /*--- обьем для крупного текста---*/
+.max{
+  font-size: 80px;
+  text-shadow: 0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(1,1,1,1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+.web {
+  font-size: 25px !important;
+  margin: 0px;
+}
+          /*--- разделительная черта ---*/
+hr {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+/*---ФОН ПЕРВОЙ СТРАНИЦЫ---*/
+.page1 {
+  background: url("http://i89.fastpic.ru/big/2017/1026/60/010a9ab8be8938415041723db22cfb60.jpg") center center;
+  background-size: cover;
+  height: 800px;
+  margin-top: 0px;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+
+/*--- SECTION ABOUT ME---*/
+            /*--- about-back ---*/
+#about-back{
+    min-height: 470px;
+    padding:5px 0 5px 0;
+    text-shadow: 1px 1px 1px black,
+                 2px 2px 1px black,
+                 3px 3px 3px black;
+                 
+    border-radius: 10px;
+    display: block;
+margin: 200px;
+min-width: 70%;
+    font-weight: bold;
+    background-color: rgba(1,1,1,0.25);
+}
+
+/*--- background ---*/
+#about {
+  padding-top: 50px;
+  background: url("https://images.unsplash.com/photo-1485627941502-d2e6429a8af0?w=1350&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center center;
+  height: 1200px;
+  background-size: cover;
+
+            /*--- main text ---*/
+p {
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 27px;
+  letter-spacing: 4px;
+  font-weight: 800px;
+  margin: 150px 50px 0 0;
+  text-align: left;
+  color: rgba(255, 255, 255, 1) !important;
+  padding: 0 0 0 50px;
+   
+}
+}
+  .img-circle{
+    margin: 100px 0 auto;
+    max-high: 600px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 50%;
+}    
+#photo-sign{
+  font-family: 'Shadows Into Light Two', bold;
+  font-size: 25px;
+  letter-spacing: 4px;
+  color: rgba(255, 255, 255, 1) !important;
+  
+    }
+  
+/*--- SECTION PORTFOLIO--*/
+#portfolio {
+  padding-top: 50px;
+  background: url("http://i91.fastpic.ru/big/2017/1027/b4/176a2b1234e7690762c10cd740c9c6b4.jpg") center center;
+  height: 1200px;
+  background-size: cover;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#portfolio .my-project a {
+  background-color: black;
+  display: block;
+  border-radius: 10px;
+  color: white;
+  max-width: 400px;
+  margin: 20px auto;
+}
+#portfolio .my-project a img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+#portfolio .my-project a span, #portfolio .my-project a b {
+  transition: all 0s;
+}
+#portfolio .my-project a span.top {
+  padding: 15px 10px 0;
+  display: block;
+  font-family: Radley;
+  letter-spacing: .15em;
+  font-size: 20px;
+  font-weight: bold;
+}
+#portfolio .my-project a span.bottom {
+  font-style: italic;
+  padding: 0 10px 15px;
+  display: block;
+  font-size: 13px;
+}
+#portfolio .my-project a:hover, 
+#portfolio .my-project a:focus {
+  text-decoration: none !important;
+  background: #DAA520;
+  color: black;
+  box-shadow: 0px 0px 7px 1px gray;
+}
+
+/*--- CONTACT---*/
+#contact {
+  text-align: center;
+  padding-top: 50px;
+  background: url("https://images.unsplash.com/photo-1414919823178-e9d9d0afd0ac?w=846&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D") center center fixed;
+  height: 800px;
+  background-size: cover;
+}
+.contact2{
+  margin-top: 270px;
+.soc {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 10px 10px;
+    border-radius: 10px;
+    background: rgba(1, 1, 1, 0.5);
+    &:hover, &:focus {
+      color: black;
+      background: white;
+    }
+    a {
+      display: block;
+      padding: 7px 12px;
+      text-decoration: none;
+      color: white;
+      i {
+        transition: all 0s;
+        margin-right: 5px;
+      }
+      &:hover {
+        color: black;
+      }
+    }
+}
+}
