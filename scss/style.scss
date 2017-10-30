@@ -93,6 +93,74 @@ h2.section_title_contact {
   background-color: rgb(1, 1, 1);
   color: white;
 }
+     /*-- сдвиг надписи слева на право--*/
+       .fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInLeftBig {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-2000px, 0, 0);
+  transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInLeftBig {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(-2000px, 0, 0);
+  transform: translate3d(-2000px, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  } 
+
+/*-- сдвиг надписи под чертой с права на лево--*/
+       .fadeInRightBig {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes fadeInRightBig {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(2000px, 0, 0);
+  transform: translate3d(2000px, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  @keyframes fadeInRightBig {
+  0% {
+  opacity: 0;
+  -webkit-transform: translate3d(2000px, 0, 0);
+  transform: translate3d(2000px, 0, 0);
+  }
+  100% {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  }
+  }
+  //сдвиг надписей
 
 
 
@@ -218,7 +286,7 @@ p {
  
           /*--- portfolio decoration ---*/
 #portfolio .my-project a {
-  background-color: black;
+  background-color: #000000;
   display: block;
   border-radius: 10px;
   color: white;
@@ -249,7 +317,7 @@ p {
 #portfolio .my-project a:hover, 
 #portfolio .my-project a:focus {
   text-decoration: none !important;
-  background: #DAA520;
+  background: #00FF00;
   color: black;
   box-shadow: 0px 0px 7px 1px gray;
 }
